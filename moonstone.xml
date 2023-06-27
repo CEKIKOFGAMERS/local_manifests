@@ -35,9 +35,9 @@
         <remove-project name="device/generic/opengl-transport" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/moonstone" name="CEKIKOFGAMERS/device_xiaomi_moonstone" remote="github" revision="test8" />
-        <project path="vendor/xiaomi/moonstone" name="CEKIKOFGAMERS/android_vendor_xiaomi_moonstone" remote="github" revision="arrow-11.0" />
-        <project path="kernel/xiaomi/moonstone" name="CEKIKOFGAMERS/android_kernel_xiaomi_sm6375" remote="github" revision="base" />
+        <project path="device/xiaomi/moonstone" name="CEKIKOFGAMERS/device_xiaomi_moonstone" remote="github" revision="13.0" />
+        <project path="vendor/xiaomi/moonstone" name="CEKIKOFGAMERS/android_vendor_xiaomi_moonstone" remote="github" revision="lineage-20" />
+        <project path="kernel/xiaomi/moonstone" name="CEKIKOFGAMERS/android_kernel_xiaomi_sm6375" remote="github" revision="twelve" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
         <project path="prebuilts/clang/host/linux-x86/clang-r433403" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403" remote="gitlab" revision="11.0" clone-depth="1" />
 
