@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
-        <remote name="github"
-                fetch="https://github.com" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="Kristo" fetch="https://github.com/CEKIKOFGAMERS" />
+  <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
 
-        <remote name="gitlab"
-                fetch="https://gitlab.com" />
+  <!-- Device Trees Common -->
+  <project path=device/xiaomi/sdm660" name="android_device_xiaomi_sdm660-common" remote="Kristo" revision="11" clone-depth="1" >
+    
+  <!-- Device Trees -->
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender.git" remote="Kristo" revision="lineage-20" clone-depth="1" />
 
-        <!-- Sync trees -->
-        <project path="device/xiaomi/moonstone" name="CEKIKOFGAMERS/android_device_xiaomi_lavender" remote="github" revision="lineage-20" />
-        <project path="vendor/xiaomi/moonstone" name="CEKIKOFGAMERS/android_vendor_xiaomi_lavender-1" remote="github" revision="arrow-13.1" />
-        <project path="kernel/xiaomi/moonstone" name="CEKIKOFGAMERS/android_kernel_xiaomi_sdm660" remote="github" revision="arrow-13.0" />
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r433403" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403" remote="gitlab" revision="11.0" clone-depth="1" />
+  <!-- Kernel Trees-->
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660.git" remote="Kristo" revision="lineage-20" clone-depth="1" />
 
+  <!-- Vendor Trees Common -->
+  <project path=vendor/xiaomi/sdm660" name="android_vendor_xiaomi_sdm660-common" remote="andy" revision="arrow-12.0" clone-depth="1" >
+      
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-1.git" remote="andy" revision="arrow-12.0" clone-depth="1" />
+  
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-20" />
+  
+  <!-- Sepolicy --> 
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr.git" remote="LOS" revision="lineage-20.0" clone-depth="1" />
+  
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
 </manifest>
