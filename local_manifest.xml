@@ -14,7 +14,7 @@
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660.git" remote="Kristo" revision="arrow-13.1" clone-depth="1" />
 
   <!-- Vendor Trees Common -->
-  <project path=vendor/xiaomi/sdm660" name="android_vendor_xiaomi_sdm660-common" remote="Kristo" revision="arrow-13.1" clone-depth="1" >
+  <project path="vendor/xiaomi/sdm660" name="android_vendor_xiaomi_sdm660-common" remote="Kristo" revision="arrow-13.1" clone-depth="1" >
       
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender.git" remote="Kristo" revision="arrow-13.1" clone-depth="1" />
