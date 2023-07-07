@@ -5,7 +5,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
 
   <!-- Device Trees Common -->
-  <project path=device/xiaomi/sdm660" name="android_device_xiaomi_sdm660-common" remote="Kristo" revision="arrow-13.1" clone-depth="1" >
+  <project path="device/xiaomi/sdm660" name="android_device_xiaomi_sdm660-common" remote="Kristo" revision="arrow-13.1" clone-depth="1" >
     
   <!-- Device Trees -->
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender.git" remote="Kristo" revision="lineage-20" clone-depth="1" />
