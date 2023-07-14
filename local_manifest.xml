@@ -5,7 +5,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/moonstone" name="device_xiaomi_moonstone.git" remote="Kristo" revision="lineage-20" clone-depth="1" />
+  <project path="device/xiaomi/moonstone" name="device_xiaomi_moonstone.git" remote="Kristo" revision="blaze-rom" clone-depth="1" />
 
   <!-- Device Common Trees -->
   <project path="device/xiaomi/moonstone" name="device_xiaomi_sm6375-common.git" remote="Kristo" revision="lineage-20" clone-depth="1" />
